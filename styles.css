@@ -1,0 +1,144 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0 46px;
+}
+
+header, .heroimage, footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px;
+    padding-bottom: 100px;
+}
+
+header p {
+    font-weight: bolder;
+}
+
+header a {
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.heroimage {
+    display: flex;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 0 200px 120px;
+
+}
+
+.herotext, .heropic {
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.herotext button {
+    border-radius: 12px;
+    border: 0;
+    width: 120px;
+    height: 40px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.heropic img {
+    width: 500px;
+    height: auto;
+}
+
+header {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.links {
+
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 200px;
+    color: #1f2937;
+    padding-top: 50px;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 50px;
+}
+
+.information img { 
+    border-radius: 12px;
+    height: 150px;
+    width: 150px;
+    padding: 25px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+button, .calltoaction {
+    background-color: #3882f6;
+}
+
+img {
+    width: 200px;
+    height: 150px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 50px;
+}
+
+.quote figcaption {
+    font-size: 20px;
+    align-self: flex-end;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.calltoaction {
+    border-radius: 8px;
+    border: none;
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 50px;
+}
+
+footer {
+    align-self: center;
+}
